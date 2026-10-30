@@ -1,22 +1,8 @@
-"Your Name":
+# 论文作者信息。只有这里列出的作者会被特殊处理（如加粗、添加链接）。
+# 未列出的作者会自动以纯文本形式显示，无需全部列出。
+
+"Qinghai Lin":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
-
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
-
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
-
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"蔺庆海":
+  bold: true

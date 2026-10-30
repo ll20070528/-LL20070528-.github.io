@@ -1,58 +1,116 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "蔺庆海"
+secondary_name: "Qinghai Lin"
+navbar_name: "蔺庆海 · Qinghai Lin"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: 副教授、硕士生导师，智慧交通系副主任
+- name: 山东交通学院 交通与物流工程学院
 
-
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# linkedin: your-linked-in-id
+email: "linqinghai@sdjtu.edu.cn"
+github: higherlin
+# gscholar: xxxxxxxxxxxxxxxx  # Google Scholar ID（替换成自己的）
 # orcid: 0000-0000-0000-0000
 
-short_bio_text_justify: false
+short_bio_text_justify: true
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    蔺庆海，1993年7月，工学博士，山东交通学院副教授、硕士生导师、智慧交通系副主任。入选山东省青年科技人才托举工程。
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    近年来，主要从事智能交通系统、交通控制与仿真、智能网联与车路协同、交通大数据分析与应用等领域研究。截至目前，主持国家自然科学基金项目1项、山东省自然科学基金项目1项；主研参与国家自然科学基金项目2项、山东省自然科学基金创新发展联合基金项目1项；主持/参与政府或企业委托横向项目10余项。以第一/通讯作者发表SCI/EI论文10余篇，其中包含IEEE T-ITS和中国公路学报等交通领域顶级期刊；授权国家发明专利5件。受邀在美国交通运输研究委员会年会（TRB）、香港运输与交通工程国际会议（HKSTS）、COTA国际交通科技年会（CICTP）、中国智能交通年会等国际国内主流会议上做报告多次。
+  </p>
+  <p>
+    <strong>研究方向：</strong>智能交通系统，交通控制与仿真，智能网联与车路协同，交通大数据分析，陆空协同感知与控制
+  </p>
+  <p>
+    <strong>主讲课程：</strong>本科生课程：交通工程学、交通大数据导论、数据分析理论与实践；研究生课程：交通流理论。
+  </p>
+  <p>
+    <strong>备用邮箱：</strong>higher_lin@foxmail.com
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+portrait_caption: "蔺庆海 Qinghai Lin"
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: 中山大学
+  dept: 计算机科学与技术（智能交通工程）专业
+  position: 博士
+  date: 2019.09 - 2023.12
+- name: University of Nevada, Reno
+  dept: Civil and Environmental Engineering
+  position: 访学（Visiting Scholar）
+  date: 2017.12 - 2018.03
+- name: 重庆交通大学
+  dept: 交通运输工程专业
+  position: 硕士
+  date: 2016.09 - 2019.06
+- name: 山东交通学院
+  dept: 交通工程专业
+  position: 学士
+  date: 2012.09 - 2016.06
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: 山东交通学院
+  dept: 交通与物流工程学院
+  position: 副教授
+  date: 2025.12 - 至今
+- name: 山东交通学院
+  dept: 交通与物流工程学院
+  position: 学术副教授
+  date: 2025.04 - 2025.12
+- name: 山东交通学院
+  dept: 交通与物流工程学院
+  position: 讲师
+  date: 2024.04 - 2025.04
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: 山东省青年科技人才托举工程人选（1/1），山东省科学技术协会
+  date: 2026
+- name: 第26届海外华人交通协会国际交通科技年会最佳编辑奖，海外华人交通协会
+  date: 2026
+- name: 第十二届全国大学生统计建模大赛山东赛区二等奖（指导老师），中国统计教育协会
+  date: 2026
+- name: 第二十二届中国研究生数学建模竞赛三等奖（指导老师），中国学位与研究生教育学会
+  date: 2025
+- name: 大学生创新创业大赛国家级项目立项（指导老师）
+  date: 2025
+- name: 第十八届中国智能交通年会“十佳科技论文”奖（1/5），中国智能交通协会
+  date: 2023
+
+research_projects:
+- '国家自然科学基金-青年科学基金项目(C类)：低渗透网联环境快速路出口匝道衔接区车辆轨迹与信号控制协同优化，2026.01-2028.12，主持，30万'
+- '山东省自然科学基金-青年项目：多源异构数据融合下的城市快速路匝道协调控制优化，2025.01-2027.12，主持，12万（本批次最高资助额级）'
+- '山东省自然科学基金-创新发展联合基金：多特征融合的空地协同高速公路多目标感知与追踪，2026.01-2028.12，子课题负责'
+- '国家自然科学基金-联合基金：面向新一代车路协同的交通信号智能控制理论与方法研究，2022.01-2025.12，主研'
+- '国家自然科学基金-重点课题：基于大数据的智慧交通基础理论与关键技术，2019.01-2022.12，主研'
+- '教育部产学合作协同育人项目：面向智慧交通的大数据导论课程改革研究，2024.11-2025.11，主持'
+- '横向项目：某公路工程可行性研究报告，2025.07-2025.08，主持'
+- '横向项目：国道某公路新建工程投资可行性分析及评估，2024.09-2024.12，主持'
+- '青岛海信网络科技股份有限公司：天津市交警总队交通信号优化项目勤务保障技术应用，2025.06-2025.09，主持'
+- '交通部交通强国建设试点任务：智慧公路空地一体运营管理关键技术，2024.06-2026.06，主研'
+- '山东高速股份有限公司：全路网视角下基于多维用户需求动态数字孪生的高速精准化运营关键技术研究，2022.08-2024.08，主研'
+- '山东高速股份有限公司：空地一体智慧高速综合立体运营服务平台关键技术研发及示范应用，2023.11-2025.11，主研'
+- '华为技术有限公司：个性化诱导应用研究，2020.07-2021.11，主研（博士期间，学生负责人）'
+- '重庆市公安局交巡警总队：重庆市主城区指路系统优化改造，2016.09-2017.05，主研（硕士期间，学生负责人）'
+- '山东省广饶县城市管理局：山东省广饶县城区交通组织深化设计，2013.11-2014.06，主研（本科期间，学生负责人）'
+
+patents:
+- '【著作】城市道路指路标志系统信息设计导则（重庆市地方标准），参与编写'
+- '【专利】蔺庆海，焦志，张萌萌等. 一种高架出口匝道衔接区车辆轨迹还原方法、设备及介质.（发明专利，已授权，专利号：ZL 2025 1 1125868.9）'
+- '【专利】何兆成，蔺庆海，吉世谦，陈金邕，李贵龙. 一种基于卡口检测数据的交叉口信号配时参数推断方法.（发明专利，已授权，专利号：ZL 2021 1 1302433.9）'
+- '【专利】武智刚，何兆成，蔺庆海，王纪禹. 一种面向自主式交叉口管理的通信组网方法及系统.（发明专利，已授权，专利号：ZL 2023 1 1807071.8）'
+- '【专利】王浩楠，张萌萌，蔺庆海，张洁. 一种多模态特征融合的交通预测方法、设备及介质.（发明专利，已授权，专利号：ZL 2025 1 1196412.1）'
+- '【专利】王浩楠，张萌萌，蔺庆海，王月昊，张洁. 一种基于无人机航拍的车辆速度估算方法、设备及介质.（发明专利，已授权，专利号：ZL 2024 1 1722841.3）'
+- '【专利】焦志，蔺庆海，张萌萌，杨丽平等. 一种基于斜面几何矫正的车辆测速方法、设备及介质.（发明专利，已公开，2025-11-07，CN120913424A）'
+- '【专利】白翰，董昌乐，蔺庆海，马天一，王修光，王国军，陈启倪，于鹏翔. 一种基于卡口数据的绿波设计速度计算方法及设备.（发明专利，已公开，2024-11-12，CN118942262A）'
+
+services:
+- '第26届海外华人交通协会国际交通科技年会（COTA），领域编辑（Area Editor）'
+- '山东公路学会交通工程专业委员会，副秘书长'
+- '人工智能与自主式交通国际学术会议（AIAT 2026），领域联合主席'
+- '山东正衢交通工程研究院智能交通研究所，副所长'
+- '世界交通运输大会（WTC）技术委员会，青年委员'
+- '《Digital Transportation and Safety》，青年编委'
+- '《山东交通学院学报》，青年编委'
+- '审稿人：IEEE Transactions on Intelligent Transportation Systems、Transportation Research Part A: Policy and Practice、Transportmetrica A: Transport Science、IET Intelligent Transport Systems、Journal of Advanced Transportation、Journal of Transportation Safety & Security、吉林大学学报（工学版）、山东大学学报（工学版）、IEEE ITSC、CICTP、WTC 等交通类期刊和会议'
