@@ -35,5 +35,12 @@ navbar_title: Home
         title='<i class="fas fa-star"></i> Selected Publications'
         %}
         {% endif %}
+
+        {% include widgets/list_card.html title='<i class="fas fa-tasks"></i> 主要科研项目' items=site.data.profile.research_projects ordered=true %}
+
+        {% include widgets/list_card.html title='<i class="fas fa-file-contract"></i> 专利与著作' items=site.data.profile.patents ordered=true %}
+
+        {% include widgets/list_card.html title='<i class="fas fa-users"></i> 学术兼职与社会服务' items=site.data.profile.services %}
+
     </div>
 </div>

@@ -1,99 +1,66 @@
-# academic-homepage
+# 个人学术主页（academic-homepage）
 
-[![Preview](assets/images/etc/preview.png)](https://luost26.github.io/academic-homepage/)
+基于 [luost26/academic-homepage](https://github.com/luost26/academic-homepage) 模板搭建的 Jekyll 个人学术主页，严格按照官方模板（https://luost.me/academic-homepage/ ）的结构制作，内容为蔺庆海（Qinghai Lin）老师的个人资料。
 
-[![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
-[![Hits](https://hits.sh/github.com/luost26/academic-homepage.svg?view=today-total)](https://hits.sh/github.com/luost26/academic-homepage/)
-[![GitHub stars](https://img.shields.io/github/stars/luost26/academic-homepage)](https://github.com/luost26/academic-homepage)
-[![GitHub forks](https://img.shields.io/github/forks/luost26/academic-homepage)](https://github.com/luost26/academic-homepage/forks)
-<!--[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)](https://validator.nu/?doc=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)-->
+## 目录结构
 
-A GitHub Pages (Jekyll) template for personal academic website. Click [here](https://luost26.github.io/academic-homepage/) to see the demo.
+```
+.
+├── _config.yml              # 站点配置（baseurl、collections）
+├── _data/
+│   ├── profile.yml          # 个人资料：姓名、单位、简介、教育/工作经历、荣誉、科研项目、专利、学术服务
+│   ├── authors.yml          # 论文作者（需要加粗/加链接的作者才列在这里）
+│   ├── navigation.yml       # 导航栏（Home / Layout2 / Publications / Blog / Showcase）
+│   └── display.yml          # 首页各模块开关、页脚文案
+├── _publications/           # 论文（按年份分目录，每篇一个 .md）
+├── _news/                   # 新闻/动态
+├── _posts/                  # 博客文章（模板自带示例，可删除）
+├── _showcase/               # 展示页卡片（模板自带示例，可删除）
+├── _includes/               # 页面组件
+├── _layouts/                # 页面布局
+├── assets/                  # 样式、脚本、图片（头像在 assets/images/photos/portrait.jpg）
+├── index.html               # 首页
+├── index_layout2.html       # 首页第二种布局（模板自带）
+├── publications.html        # 论文列表页
+├── blog.html                # 博客页（模板自带）
+├── showcase.html            # 展示页（模板自带）
+└── 404.html                 # 404 页面
+```
 
-## Variants
+## 本地运行
 
-Explore alternative visual styles in their own repositories.
+1. 安装 Ruby 与 Jekyll（参考 https://jekyllrb.com/docs/installation/）。
+2. 在项目根目录执行：
 
-| Variant | Style | Preview | Links |
-| --- | --- | --- | --- |
-| Frutiger Aero | Vista-inspired frosted glass, glossy icons, and nature imagery. | <img src="assets/images/variants/frutiger-aero.jpg" alt="Frutiger Aero homepage screenshot" width="320"> | [Repository](https://github.com/luost26/academic-homepage-frutiger-aero) · [Live demo](https://luost26.github.io/academic-homepage-frutiger-aero/) |
-| Nostalgia 1990s | Windows 95/98-style silver bevels, native classic icons, and pixel-grid typography. | <img src="assets/images/variants/nostalgia-1990s.jpg" alt="Nostalgia 1990s homepage screenshot" width="320"> | [Repository](https://github.com/luost26/academic-homepage-nostalgia-1990s) · [Live demo](https://luost26.github.io/academic-homepage-nostalgia-1990s/) |
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-## User Community
+3. 浏览器打开终端显示的地址（默认 http://127.0.0.1:4000）即可预览。
 
-[🏡](https://luost.me/)
-[:star:](https://cch1999.github.io/)
-[:star:](https://kyrrego.github.io/)
-[:star:](https://ced3-han.github.io/)
-[:star:](https://lihengchen.com/)
-[:star:](https://hpwang-whu.github.io/)
-[:star:](https://zhang-yingyi.github.io/)
-[:star:](https://wby24.github.io/)
-[:star:](https://pengfeixu.com/)
-[:star:](https://boqiuphd.github.io/)
-[:star:](https://www.huabing.li/)
-[:star:](https://xiecuiying.github.io/)
-[:star:](https://hannyang.github.io/)
-[:star:](https://king-play.github.io/)
-[🤖](https://andrewcwlee.github.io)
-[:star:](https://laiyao1.github.io)
-[🌜](https://tmsultan.github.io)
-[🚀](https://zaxguo.github.io)
-[:gemini:](https://hongyang-du.github.io)
-[:star:](https://thuanz123.github.io)
-[🧬](https://gdalba.github.io/)
-[:star:](https://yhhan.com/)
-[🌔](https://chen-huaneng.github.io/academic)
-[:star:](https://jwklee.github.io/)
-[😼](https://onethousandwu.com/)
-[🔬](https://kwen-chen.github.io/)
-[🧑‍🔬](https://shengxiang-lin.github.io/)
-[🗣️](https://henry-h22.github.io/)
-[🍠](https://xingyuliuxyl.com/)
-[:star:](https://melanthera-biflora.github.io/)
+> 也可以直接双击项目根目录的 `preview.html` 快速查看首页效果（无需安装任何东西，但仅用于预览、需联网加载样式）。
 
-:hugs: Feel free to tell us if you are using this template for your website by creating an issue [here](https://github.com/luost26/academic-homepage/issues/new?assignees=&labels=&projects=&template=user-report.md&title=I+am+using+this+template%21).
+## 如何改成你自己的内容
 
-### Acknowledgements
+- **姓名 / 单位 / 邮箱 / 简介 / 教育 / 工作 / 荣誉 / 科研项目 / 专利 / 学术服务**：改 `_data/profile.yml`。
+- **头像**：替换 `assets/images/photos/portrait.jpg`。
+- **论文**：在 `_publications/` 下按年份新建 `.md` 文件，front matter 参考现有论文。
+  - 作者标记：名字后加 `*` = 共同一作，加 `#` = 通讯作者，`*#` = 两者皆是。
+- **新闻**：在 `_news/` 下新建 `.md` 文件。
+- **页脚 / 首页模块开关**：改 `_data/display.yml`。
+- **导航栏**：改 `_data/navigation.yml`（`name` 需与页面 front matter 的 `navbar_title` 一致）。
 
-The improvements of this template have been inspired by the customizations and feedbacks from the following users:
-- 😼 [onethousandwu.com](https://onethousandwu.com/): increased corner radius [[Repo]](https://github.com/oneThousand1000/oneThousand1000.github.io)
-- :star: [shiwonkim.github.io](https://shiwonkim.github.io/): two-column main page layout [[Repo]](https://github.com/shiwonkim/shiwonkim.github.io)
-- :star: [yqxie99.github.io](https://yqxie99.github.io/): blog feature [[Repo]](https://github.com/YQXie99/YQXie99.github.io/tree/feat/add_blog_page)
-- :star: [kwen-chen.github.io](https://kwen-chen.github.io/): blog feature [[Repo]](https://github.com/Kwen-Chen/Kwen-Chen.github.io)
+> 说明：首页在模板原有板块（About / Education / Experience / Honors & Awards / News / Selected Publications）之外，额外加了「主要科研项目 / 专利与著作 / 学术兼职与社会服务」三个自定义卡片（`_includes/widgets/list_card.html` 渲染），数据来自 `profile.yml` 的 `research_projects` / `patents` / `services`。不想要的话，删掉 `index.html` 里对应的三行 `{% include widgets/list_card.html ... %}` 即可。
 
-## Need Help?
+## 部署到 GitHub Pages
 
-If you run into **any** issues while using this template, or have suggestions for improvements, please don't hesitate to create an issue [here](https://github.com/luost26/academic-homepage/issues/new).
+1. 新建仓库，命名为 `<你的GitHub用户名>.github.io`，把本目录内容推上去。
+2. 仓库 `Settings → Pages` 中，`Source` 选择 **GitHub Actions**。
+3. 推送后，`.github/workflows/pages.yml` 会自动构建并部署，访问 `https://<你的GitHub用户名>.github.io` 即可看到网站。
 
-### FAQs
+> 说明：`_config.yml` 中 `baseurl` 已设为空，适配 `<用户名>.github.io` 这种根目录部署；若部署到项目仓库子路径，请改成对应的 `/仓库名`。
 
-- [Need blogging feature?](https://github.com/luost26/academic-homepage/issues/13#issuecomment-2646371324)
-- [How to show citation count for papers?](https://github.com/luost26/academic-homepage/issues/29#issuecomment-3222496187)
+## 致谢
 
-
-## Getting Started
-
-1. First, click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
-
-### Running Locally (Debug & Preview)
-
-2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
-
-3. Clone your forked repository to your local machine.
-
-4. Run the following command in the root directory of the repository:
-
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-5. Browse to the displayed URL to see the website.
-
-
-### Deploying to GitHub Pages
-
-2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-
-3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
-
+模板来自 [luost26/academic-homepage](https://github.com/luost26/academic-homepage)，特此感谢。
